@@ -66,5 +66,10 @@ while (o!=12):
          y=int(input("Escribe el segundo número: "))
          cociente(x, y)
          
+    elif (o == 6):
+        x=int(input("Escribe el primer número: "))
+        y=int(input("Escribe el segundo número: "))
+        restoDivision(x, y)
+         
     break
     
