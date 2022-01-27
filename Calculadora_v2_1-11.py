@@ -56,5 +56,10 @@ while (o!=12):
         y=int(input("Escribe el segundo número: "))
         print(f"La multiplicación entre {x} y {y} es: {x * y}")
         
+    elif (o == 4):
+        x=int(input("Escribe el primer número: "))
+        y=int(input("Escribe el segundo número: "))
+        division(x, y)
+        
     break
     
