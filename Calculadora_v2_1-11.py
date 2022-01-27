@@ -6,19 +6,6 @@ import math
 suma = lambda x, y: x + y
 resta = lambda x, y: x - y
 
-def multiplicacion(x, y):
-    print(f"La multiplicación entre {x} y {y} es: {x * y}")
-def division(x, y):
-    if (y==0):
-        print("El denominador no puede ser 0")
-    print(f"La división entre {x} y {y} es: {x / y}")
-def cociente(x, y):
-    print(f"El cociente entre {x} y {y} es: {x // y}")
-def restoDivision(x, y):
-    print(f"El resto de la división entre {x} y {y} es: {x % y}")
-def exponente(x, y): #(x, y)
-    print(f"El exponente entre {x} y {y} es: {x ** y}")
-
 o=0
 
 while (o!=12):
@@ -41,5 +28,10 @@ while (o!=12):
         y=int(input("Escribe el segundo número: "))
         print(suma(x, y))
         
-
+    elif (o == 2):
+        x=int(input("Escribe el primer número: "))
+        y=int(input("Escribe el segundo número: "))
+        print(resta(x, y))
+    break
+    
     
