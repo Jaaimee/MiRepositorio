@@ -6,6 +6,24 @@ import math
 suma = lambda x, y: x + y
 resta = lambda x, y: x - y
 
+def multiplicacion(x, y):
+    print(f"La multiplicación entre {x} y {y} es: {x * y}")
+def division(x, y):
+    if (y==0):
+        print("El denominador no puede ser 0")
+    print(f"La división entre {x} y {y} es: {x / y}")
+def cociente(x, y):
+    print(f"El cociente entre {x} y {y} es: {x // y}")
+def restoDivision(x, y):
+    print(f"El resto de la división entre {x} y {y} es: {x % y}")
+def exponente(x, y): #(x, y)
+    print(f"El exponente entre {x} y {y} es: {x ** y}")
+
+
+listaTriangulos=[(3,2), (1, 5), (6, 7)]
+listaRectangulo=[(3,2), (1, 5), (6, 7)]
+listaCirculo=[3, 6, 1, 9, 5]
+listaCuadrado=[4, 5, 7, 2, 8, 1, 6]
 o=0
 
 while (o!=12):
@@ -32,6 +50,11 @@ while (o!=12):
         x=int(input("Escribe el primer número: "))
         y=int(input("Escribe el segundo número: "))
         print(resta(x, y))
+        
+    elif (o == 3):
+        x=int(input("Escribe el primer número: "))
+        y=int(input("Escribe el segundo número: "))
+        print(f"La multiplicación entre {x} y {y} es: {x * y}")
+        
     break
-    
     
