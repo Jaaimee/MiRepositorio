@@ -69,7 +69,7 @@ while (o!=12):
     elif (o == 6):
         x=int(input("Escribe el primer número: "))
         y=int(input("Escribe el segundo número: "))
-        restoDivision(x, y)
+        restoDivision(x, y) 
          
     break
     
