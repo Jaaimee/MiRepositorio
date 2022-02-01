@@ -70,6 +70,10 @@ while (o!=12):
         x=int(input("Escribe el primer número: "))
         y=int(input("Escribe el segundo número: "))
         restoDivision(x, y) 
-         
+        
+    elif (o == 7):
+             x=int(input("Escribe el primer número: "))
+             y=int(input("Escribe el segundo número: "))
+             exponente(x, y)
     break
     
