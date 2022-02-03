@@ -28,7 +28,7 @@ o=0
 
 while (o!=12):
     print("CALCULADORA")
-    print("1.Suma de dos números")
+    print("1.Suma de dos números2")
     print("2.Resta de dos números")
     print("3.Multiplicación de dos números")
     print("4.División de dos números")
