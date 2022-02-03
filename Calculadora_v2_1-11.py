@@ -3,7 +3,7 @@ import math
 #     print(f"La suma de {x} y {y} es: {x + y}")
 # def resta(x, y):
 #     print(f"La resta entre {x} y {y} es: {x - y}")
-suma2 = lambda x, y: x + y
+suma4 = lambda x, y: x + y
 resta2 = lambda x, y: x - y
 
 def multiplicacion(x, y):
@@ -44,7 +44,7 @@ while (o!=12):
     if (o == 1):
         x=int(input("Escribe el primer número: "))
         y=int(input("Escribe el segundo número: "))
-        print(suma2(x, y))
+        print(suma4(x, y))
         
     elif (o == 2):
         x=int(input("Escribe el primer número: "))
